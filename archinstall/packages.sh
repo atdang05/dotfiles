@@ -46,4 +46,5 @@ tumbler \
 zsh \
 zsh-syntax-highlighting \
 zsh-autosuggestions \
-fzf
+fzf \
+neovim
