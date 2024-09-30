@@ -1,6 +1,6 @@
 #!/bin/bash
 
-yay -Syy \
+yay -Syu \
 xorg \
 i3 \
 ly \
@@ -56,3 +56,5 @@ ranger \
 htop \
 cava \
 cbonsai \
+asciiquarium \
+cmatrix
