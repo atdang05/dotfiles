@@ -1,0 +1,37 @@
+#!/bin/bash
+
+yay -Syy \
+xorg \
+i3 \
+ly \
+noto-fonts \
+noto-fonts-emoji \
+noto-fonts-cjk \
+noto-fonts-extra \
+ttf-bitstream-vera \
+ttf-dejavu \
+ttf-liberation \
+ttf-opensans \
+alacritty \
+dmenu \
+firefox \
+visual-studio-code-bin \
+thunar \
+ttf-jetbrains-mono-nerd \
+network-manager-applet \
+nitrogen \
+mpv \
+zathura \
+nwg-look \
+blueman \
+flameshot \
+rofi \
+ttf-roboto \
+betterlockscreen \
+brightnessctl \
+playerctl \
+picom \
+dunst \
+ttf-firacode-nerd \
+polybar \
+ttf-font-awesome \

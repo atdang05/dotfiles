@@ -1,0 +1,44 @@
+[global]
+monitor = 0
+follow = mouse
+indicate_hidden = yes
+transparency = 0
+separator_height = 2
+padding = 4
+horizontal_padding = 4
+separator_color = "#585858"
+sort = yes
+idle_threshold = 120
+font = FiraCode Nerd Font 10
+line_height = 0
+format = <b>%s</b>\n%b
+alignment = center
+show_age_threshold = 60
+ignore_newline = no
+icon_position = left
+sticky_history = yes
+allow_markup = yes
+bounce_freq = 0
+geometry = "200x5-6+30"
+icon_folders = ~/.icons/16x16/
+startup_notification = false
+word_wrap = yes
+
+[urgency_low]
+timeout = 5
+background = "#1d2021"
+foreground = "#ebdbb2"
+
+[urgency_normal]
+timeout = 20
+background = "#1d2021"
+foreground = "#ebdbb2"
+
+[urgency_critical]
+timeout = 0
+background = "#1d2021"
+foreground = "#ebdbb2"
+
+[frame]
+width = (0,400)
+color = "#ebdbb2"
