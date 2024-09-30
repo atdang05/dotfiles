@@ -50,4 +50,9 @@ fzf \
 neovim \
 github-cli \
 fcitx5-im \
-fcitx5-bamboo
+fcitx5-bamboo \
+neofetch \
+ranger \
+htop \
+cava \
+cbonsai \
