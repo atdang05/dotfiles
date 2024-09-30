@@ -227,6 +227,7 @@ exec_always picom
 exec_always dunst
 exec_always ~/.config/scripts/polybar.sh
 exec_always nitrogen --restore
+exec_always fcitx5
 
 #-- Border -------------------------------------
 

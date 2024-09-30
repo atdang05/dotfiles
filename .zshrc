@@ -25,3 +25,8 @@ source <(fzf --zsh)
 # Editing command line in vim
 autoload -z edit-command-line
 zle -N edit-command-line
+
+# Fcitx5 variables
+export XMODIFIERS=@im=fcitx
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx

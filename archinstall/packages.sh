@@ -48,4 +48,6 @@ zsh-syntax-highlighting \
 zsh-autosuggestions \
 fzf \
 neovim \
-github-cli
+github-cli \
+fcitx5-im \
+fcitx5-bamboo
