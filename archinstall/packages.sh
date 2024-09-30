@@ -35,3 +35,15 @@ dunst \
 ttf-firacode-nerd \
 polybar \
 ttf-font-awesome \
+orchis-theme \
+papirus-icon-theme \
+gvfs \
+thunar-archive-plugin \
+thunar-media-tags-plugin \
+thunar-shares-plugin \
+thunar-volman \
+tumbler \
+zsh \
+zsh-syntax-highlighting \
+zsh-autosuggestions \
+fzf
