@@ -48,6 +48,7 @@ zsh-syntax-highlighting \
 zsh-autosuggestions \
 fzf \
 neovim \
+yarn \
 github-cli \
 fcitx5-im \
 fcitx5-bamboo \
@@ -59,4 +60,5 @@ cbonsai \
 asciiquarium \
 cmatrix \
 xclip \
-ueberzug
+ueberzug \
+ristretto
