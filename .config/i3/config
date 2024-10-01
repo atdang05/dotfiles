@@ -87,22 +87,25 @@ bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
+# Send Notification
+set $send-notify exec --no-startup-id dunstify -u low -h string:x-dunst-stack-tag:i3config
+
 # split in horizontal orientation
-bindsym $mod+z split h
+bindsym $mod+z split h, $send-notify 'Split Horizontally'
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+v split v, $send-notify 'Split Vertically'
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+f fullscreen toggle, $send-notify 'Toggle Fullscreen'
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
-bindsym $mod+e layout toggle split
+bindsym $mod+s layout stacking, $send-notify 'Layout - Stacking'
+bindsym $mod+w layout tabbed, $send-notify 'Layout - Tabbed'
+bindsym $mod+e layout toggle split, $send-notify 'Layout - Hor/Vect'
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space floating toggle, $send-notify 'Toggle Floating Mode'
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -151,9 +154,9 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+c reload, $send-notify 'Configuration Reloaded!'
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r restart, $send-notify 'i3wm Restarted!'
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec ~/.config/scripts/powermenu.sh
 
@@ -259,6 +262,15 @@ client.unfocused        $color4 $color1 $color4 $color4         $color4
 client.urgent           $color3 $color3 $color2 $color2         $color4
 
 #-- Key Bindings -------------------------------
+
+# -- GUI Apps --
+bindsym $mod+Shift+f    exec thunar
+bindsym $mod+c          exec code
+bindsym $mod+Shift+w    exec firefox
+
+# -- CLI Apps --
+bindsym $mod+Shift+v    exec --no-startup-id alacritty -e nvim
+bindsym $mod+Shift+t    exec --no-startup-id alacritty -e htop
 
 # -- Function keys --
 bindsym XF86MonBrightnessUp     exec brightnessctl set +5%

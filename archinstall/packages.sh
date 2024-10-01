@@ -58,4 +58,5 @@ cava \
 cbonsai \
 asciiquarium \
 cmatrix \
-xclip
+xclip \
+ueberzug
