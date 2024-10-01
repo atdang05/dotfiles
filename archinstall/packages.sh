@@ -57,4 +57,5 @@ htop \
 cava \
 cbonsai \
 asciiquarium \
-cmatrix
+cmatrix \
+xclip
