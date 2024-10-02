@@ -2,3 +2,4 @@
 
 yay -Syu \
 clang \
+tmux \

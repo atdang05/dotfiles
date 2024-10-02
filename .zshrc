@@ -33,3 +33,5 @@ export QT_IM_MODULE=fcitx
 
 export EDITOR=nvim
 export VISUAL=nvim
+
+export CC=clang
