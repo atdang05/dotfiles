@@ -31,4 +31,5 @@ export XMODIFIERS=@im=fcitx
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 
-alias rg="ranger"
+export EDITOR=nvim
+export VISUAL=nvim
