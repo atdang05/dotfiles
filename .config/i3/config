@@ -302,7 +302,9 @@ assign [class="(?)firefox"] $ws2
 assign [class="(?i)Code"] $ws3
 assign [class="Thunar"] $ws4
 assign [class="mpv"] $ws4
+assign [class="Spotify"] $ws6
 assign [class="Zathura"] $ws7
+assign [class="com.github.johnfactotum.Foliate"] $ws7
 assign [class="Nwg-look"] $ws8
 assign [class="Blueman-manager"] $ws8
 
@@ -315,7 +317,9 @@ for_window [class=firefox] focus
 for_window [class=Code] focus
 for_window [class=Thunar] focus
 for_window [class=mpv] focus
+for_window [class=Spotify] focus
 for_window [class=Zathura] focus
+for_window [class=com.github.johnfactotum.Foliate] focus
 for_window [class=Nwg-look] focus
 for_window [class=Blueman-manager] focus
 

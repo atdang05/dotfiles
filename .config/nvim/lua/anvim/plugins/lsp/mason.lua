@@ -26,6 +26,7 @@ return {
 		mason_lspconfig.setup({
 			ensure_installed = {
 				"lua_ls",
+				"cssls",
 				"marksman",
 			},
 			-- auto installation
@@ -36,18 +37,28 @@ return {
 		mason_tool_installer.setup({
 			ensure_installed = {
 				-- you can turn off/on auto_update per tool
-				-- { "bash-language-server" },
+				{ "bash-language-server" },
 				{ "lua-language-server" },
-				-- { "vim-language-server" },
+				{ "vim-language-server" },
 				{ "stylua" },
 				{ "editorconfig-checker" },
+				{ "html-lsp" },
+				{ "emmet-ls" },
+				{ "css-lsp" },
+				{ "pyright" },
 				{ "black" },
 				{ "autopep8" },
-				-- { "prettier" },
-				-- { "eslint_d" },
-				-- { "eslint-lsp" },
+				{ "json-lsp" },
+				{ "prettier" },
+				{ "typescript-language-server" },
+				{ "js-debug-adapter" },
+				{ "node-debug2-adapter" },
+				{ "eslint_d" },
+				{ "eslint-lsp" },
 				{ "codelldb" },
+				{ "tailwindcss-language-server" },
 				{ "clangd" },
+				{ "clang-format" },
 			},
 
 			auto_update = true,

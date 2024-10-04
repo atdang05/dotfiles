@@ -29,6 +29,7 @@ papirus-icon-theme \
 neovim \
 xclip \
 yarn \
+npm \
 rofi \
 picom \
 dunst \
