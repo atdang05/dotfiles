@@ -30,6 +30,7 @@ neovim \
 xclip \
 yarn \
 npm \
+tmux \
 rofi \
 picom \
 dunst \
@@ -57,3 +58,5 @@ neofetch \
 htop \
 ranger \
 ueberzug \
+github-cli \
+lazygit
