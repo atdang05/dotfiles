@@ -13,9 +13,10 @@ compinit
 # End of lines added by compinstall
 
 # Oh-My-Zsh
-export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
-source $ZSH/oh-my-zsh.sh
+# export ZSH="$HOME/.oh-my-zsh"
+# ZSH_THEME="robbyrussell"
+# source $ZSH/oh-my-zsh.sh
+eval "$(starship init zsh)"
 
 # Plugins
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin.zsh

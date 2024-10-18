@@ -1,5 +1,5 @@
 #!/bin/bash
 
 yay -Syu \
-clang \
-tmux \
+python-beautifulsoup4 \
+sqlitebrowser
