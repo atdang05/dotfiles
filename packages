@@ -5,7 +5,16 @@ fzf
 
 ttf-jetbrains-mono-nerd
 ttf-victor-mono-nerd
+apple-fonts (AUR)
 
 neovim
 xclip
 npm
+
+brightnessctl
+playerctl
+rofi
+picom
+twmn-git (AUR)
+feh
+flameshot
