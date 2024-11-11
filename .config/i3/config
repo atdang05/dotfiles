@@ -250,6 +250,9 @@ exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
 # Set Caps Lock to Control (as on IBM keyboard)
 exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
 
+# Gaming mode
+bindsym $mod+Shift+g exec pkill picom
+
 # Function keys
 bindsym XF86MonBrightnessUp exec brightnessctl set +5%
 bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
