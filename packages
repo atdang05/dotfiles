@@ -2,6 +2,7 @@ zsh
 zsh-syntax-highlighting
 zsh-autosuggestions
 fzf
+starship
 
 ttf-jetbrains-mono-nerd
 ttf-victor-mono-nerd
@@ -31,3 +32,4 @@ ristretto
 ranger
 ueberzug
 lazygit
+github-cli
