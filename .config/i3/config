@@ -247,6 +247,7 @@ mode "$mode_gaps_outer" {
 exec_always --no-startup-id picom
 exec_always --no-startup-id twmnd
 exec_always feh --bg-scale ~/Pictures/wallpaper.jpg
+exec --no-startup-id fcitx5
 # Set Caps Lock to Control (as on IBM keyboard)
 exec --no-startup-id /usr/bin/setxkbmap -option "ctrl:nocaps"
 
